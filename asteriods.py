@@ -1,4 +1,14 @@
-# program template for Spaceship
+"""
+Author: Shahzeb Siddiqui
+Date: 05/17/2014
+Description: This is an implementation of Asteriods. The game contains a canvas where player maneuvers his/her ship to 
+             dodge the rocks. The player can shoot missile from the ship using the [spacebar] button. The player starts
+             out with 3 lives and every collision with rock, the player will lose a life. The player's score is the number
+             of rocks destroyed.
+             
+Note: This code works with codeskulptor.org and will not work with tradition Python compiler because it uses library simplegui
+      which is a custom made library
+"""      
 import simplegui
 import math
 import random
